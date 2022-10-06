@@ -1,0 +1,83 @@
+:host {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 14px;
+    color: #333;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  #logo {
+    width: 8%;
+    margin: 0 8px;
+    margin-bottom: 8px;
+  }
+
+  .toolbar {
+    position: absolute;
+    bottom: -1%;
+    left: 0;
+    right: 0;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background-color: #5065A8;
+    color: white;
+    font-weight: 600;
+    border-radius: 5%;
+  }
+
+  .toolbar span {
+    position: absolute;
+    left: 20%;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+
+  .toolbar #contact {
+    position: absolute;
+    right: 0;
+    width: 30px;
+    margin: 0 8px;
+  }
+
+  .content {
+    display: flex;
+    margin: 82px auto 32px;
+    padding: 0 16px;
+    max-width: 960px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .content img {
+    width: 50%;
+  }
+
+  /* Responsive Styles */
+  @media screen and (max-width: 767px) {
+    .card-container > *:not(.circle-link) ,
+    .terminal {
+      width: 100%;
+    }
+
+    .card:not(.highlight-card) {
+      height: 16px;
+      margin: 8px 0;
+    }
+
+    .card.highlight-card span {
+      margin-left: 72px;
+    }
+
+    svg#rocket-smoke {
+      right: 120px;
+      transform: rotate(-5deg);
+    }
+  }
+
+  @media screen and (max-width: 575px) {
+    svg#rocket-smoke {
+      display: none;
+      visibility: hidden;
+    }
+  }
