@@ -31,7 +31,7 @@ $color-empresa: #5065A8;
 
   .toolbar {
     position: absolute;
-    bottom: -5px;
+    bottom: -10px;
     left: 0;
     right: 0;
     height: 60px;
@@ -63,7 +63,7 @@ $color-empresa: #5065A8;
 
   .content {
     display: flex;
-    margin: 82px auto 32px;
+    margin: 70px auto 32px;
     padding: 0 16px;
     max-width: 960px;
     flex-direction: column;

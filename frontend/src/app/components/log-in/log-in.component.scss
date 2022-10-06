@@ -1,0 +1,41 @@
+#mainLogo{
+    margin-top:2em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3em;
+    display: block;
+    width: 50%;
+  }
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    border-color: #5065A8;
+    width: 20em;
+    height: 3em;
+    border-radius: 5em;
+    margin-bottom: 2em;
+    text-align: center;
+    font-family: sans-serif;
+    color: #5065A8;
+}
+
+.button {
+    margin-top: 3em;
+}
+
+button {
+    width: 9em;
+    height: 2em;
+    margin-right: 1em;
+    margin-left: 1em;
+    border-color: #5065A8;
+    border-radius: 3em;
+    background-color:#FFFFFF;
+    color: #5065A8;
+    
+}

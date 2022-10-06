@@ -1,13 +1,26 @@
 import { Component, OnInit } from '@angular/core';
+import { NgModel } from '@angular/forms';
+import { RouterModule } from '@angular/router';
 
 @Component({
-  selector: 'app-log-in',
+  selector: 'login',
   templateUrl: './log-in.component.html',
   styleUrls: ['./log-in.component.scss']
 })
 export class LogInComponent implements OnInit {
 
-  constructor() { }
+  username: string = '';
+
+  clickme() {
+    console.log("si",this.username);
+  }
+
+  constructor() {
+    imports: [
+      NgModel,
+      RouterModule,
+    ]
+   }
 
   ngOnInit(): void {
   }
