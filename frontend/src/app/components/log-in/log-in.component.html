@@ -1,12 +1,23 @@
 <!-- Main logo -->
-<img id="mainLogo" src="../assets/images/mainLogo.png" />
+<img id="mainLogo" src="../../../assets/images/mainLogo.png" />
 
 <!-- Log in form -->
 <div class="form">
         <input type="text" id="name" name="name" placeholder="User">
         <input type="password" id="password" name="password" placeholder="Password" >
-    <div class="button">
-        <button routerLink="">Log in</button>
-        <button (click)="clickme()">Register</button>
+    <div class="btn">
+        <button id="login" routerLink="/menu">Log in</button>
+        <button id="register">Register</button>
     </div>
 </div>
+
+<!-- Bottom Toolbar -->
+<div class="toolbar" role="banner">
+    <img width="40" alt="KRV Logo" src="../../../assets/images/logoReverted.png" routerLink="/version"/>
+    <span routerLink="/version">Version 3.2.1</span>
+  
+    <div class="spacer"></div>
+    <a class="contact" aria-label="Contact Us" target="_blank" rel="noopener" href="" title="Contact Us">
+      <img id="contactUs" src="../../../assets/images/contactUs.png" alt="Contact Us">
+    </a>
+  </div>

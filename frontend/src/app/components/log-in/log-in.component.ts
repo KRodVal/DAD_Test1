@@ -11,10 +11,6 @@ export class LogInComponent implements OnInit {
 
   username: string = '';
 
-  clickme() {
-    console.log("si",this.username);
-  }
-
   constructor() {
     imports: [
       NgModel,

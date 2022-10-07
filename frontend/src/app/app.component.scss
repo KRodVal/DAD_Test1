@@ -16,50 +16,7 @@ $color-empresa: #5065A8;
     display: block;
     width: 50%;
   }
-
-  // // #protoWaterMark{
-  //   top: 10%;
-  //   margin: auto;
-  //   display: block;
-  //   height: 20%;
-
-  // }
-
-  .spacer {
-    flex: 1;
-  }
-
-  .toolbar {
-    position: absolute;
-    bottom: -10px;
-    left: 0;
-    right: 0;
-    height: 60px;
-    display: flex;
-    align-items: center;
-    background-color: $color-empresa;
-    color: white;
-    font-weight: 600;
-    border-radius: 5%;
-  }
-
-  .toolbar img {
-    margin: 0 16px;
-  }
-
-  .toolbar #twitter-logo {
-    height: 40px;
-    margin: 0 8px;
-  }
-
-  .toolbar #youtube-logo {
-    height: 40px;
-    margin: 0 16px;
-  }
-
-  .toolbar #contactUs {
-    opacity: 0.8;
-  }
+  
 
   .content {
     display: flex;
