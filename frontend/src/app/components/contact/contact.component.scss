@@ -22,26 +22,29 @@ $color-empresa: #5065A8;
 }
 
 input {
-    border-color: $color-empresa;
+    background-color: #5065A8;
+    border-color: white;
     width: 20em;
     height: 3em;
-
     margin-bottom: 2em;
     text-align: center;
     font-family: sans-serif;
-    color: $color-empresa;
+    color: white;
+    border-radius: 1em;
 }
 
-#name {
-    border-radius: 1em 1em 0 0;
+#mailAgeGroup {
+    // align-items: center;
+    align-content: space-between;
 }
 
-#password {
-    border-radius: 0 0 1em 1em;
+#mailAgeGroup input {
+    width: 45%;
+    
 }
 
 .form div {
-    margin-top: 3em;
+    margin-top: .5em;
 }
 
 button {
@@ -53,13 +56,5 @@ button {
     border-radius: 3em;
     background-color: white;
     color: $color-empresa;
-
-}
-
-#login {
-    border-radius: 1em 0 0 1em;
-}
-
-#register {
-    border-radius: 0 1em 1em 0;
+    border-radius: 1em;
 }
