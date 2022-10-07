@@ -7,6 +7,7 @@ import { LogInComponent } from './components/log-in/log-in.component';
 import { MenuComponent } from './components/menu/menu.component';
 import { VersionComponent } from './components/version/version.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { SentComponent } from './components/sent/sent.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { ContactComponent } from './components/contact/contact.component';
     LogInComponent,
     MenuComponent,
     VersionComponent,
-    ContactComponent
+    ContactComponent,
+    SentComponent
   ],
   imports: [
     BrowserModule,

@@ -21,26 +21,31 @@ $color-empresa: #5065A8;
     align-items: center;
 }
 
-input {
-    background-color: #5065A8;
-    border-color: white;
+input,textarea {
+    background-color: white;
+    border-color: $color-empresa;
     width: 20em;
     height: 3em;
     margin-bottom: 2em;
     text-align: center;
     font-family: sans-serif;
-    color: white;
+    color: $color-empresa;
     border-radius: 1em;
 }
 
 #mailAgeGroup {
-    // align-items: center;
-    align-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+
+#mailAgeGroup a {
+    margin-left: .5em;
+    margin-right: .5em;
 }
 
 #mailAgeGroup input {
-    width: 45%;
-    
+    width: 9em;
+    height: 3em;
 }
 
 .form div {
@@ -48,13 +53,14 @@ input {
 }
 
 button {
-    width: 9em;
-    height: 2.5em;
+    width: 12em;
+    height: 3em;
+    margin-top: 3em;
     margin-right: 1em;
     margin-left: 1em;
     border-color: white;
     border-radius: 3em;
-    background-color: white;
-    color: $color-empresa;
+    background-color: $color-empresa;
+    color: white;
     border-radius: 1em;
 }
