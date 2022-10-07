@@ -19,12 +19,12 @@ export class AppComponent implements OnInit{
       filter(event => event instanceof NavigationEnd)
     ).subscribe((event: any) => {
        console.log('The URL changed to: ' + event['url'])
-       if(event['url']==='/login' ||  event['url']==='/menu'){
-        this.document.body.classList.remove('bg2');
-        this.document.body.classList.add('bg1');
-      }else{
+       if(event['url']==='/version' || event['url']==='/contact'){
         this.document.body.classList.remove('bg1');
         this.document.body.classList.add('bg2');
+      }else{
+        this.document.body.classList.remove('bg2');
+        this.document.body.classList.add('bg1');
       }
 
     });

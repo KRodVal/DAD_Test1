@@ -1,97 +1,94 @@
 $color-empresa: #5065A8;
 
 #mainLogo {
-    margin-top: 2em;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 3em;
-    display: block;
-    width: 50%;
+  margin-top: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3em;
+  display: block;
+  width: 50%;
 }
 
 .form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 input {
-    border-color: $color-empresa;
-    width: 20em;
-    height: 3em;
+  border-color: $color-empresa;
+  width: 20em;
+  height: 3em;
 
-    margin-bottom: 2em;
-    text-align: center;
-    font-family: sans-serif;
-    color: $color-empresa;
+  margin-bottom: 2em;
+  text-align: center;
+  font-family: sans-serif;
+  color: $color-empresa;
 }
 
 #name {
-    border-radius: 1em 1em 0 0;
+  border-radius: 1em 1em 0 0;
 }
 
 #password {
-    border-radius: 0 0 1em 1em;
+  border-radius: 0 0 1em 1em;
 }
 
 .form div {
-    margin-top: 3em;
+  margin-top: 3em;
 }
 
 button {
-    width: 9em;
-    height: 2.5em;
-    margin-right: 1em;
-    margin-left: 1em;
-    border-color: $color-empresa;
-    border-radius: 3em;
-    background-color: $color-empresa;
-    color: #ffffff;
+  width: 9em;
+  height: 2.5em;
+  margin-right: 1em;
+  margin-left: 1em;
+  border-color: $color-empresa;
+  border-radius: 3em;
+  background-color: $color-empresa;
+  color: #ffffff;
 
 }
 
 #login {
-    border-radius: 1em 0 0 1em;
+  border-radius: 1em 0 0 1em;
 }
 
 #register {
-    border-radius: 0 1em 1em 0;
+  border-radius: 0 1em 1em 0;
 }
 
 // Bottom toolbar
 
 .spacer {
-    flex: 1;
-  }
+  flex: 1;
+}
 
-  .toolbar {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    background-color: $color-empresa;
-    color: white;
-    font-weight: 600;
-    border-radius: 1em 1em 0 0;
-  }
+.toolbar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  background-color: $color-empresa;
+  color: white;
+  font-weight: 600;
+  border-radius: 1em 1em 0 0;
+}
 
-  .toolbar img {
-    margin: 0 16px;
-  }
+.toolbar img {
+  margin: 0 16px;
+}
 
-  .toolbar #twitter-logo {
-    height: 40px;
-    margin: 0 8px;
-  }
+.contact {
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+}
 
-  .toolbar #youtube-logo {
-    height: 40px;
-    margin: 0 16px;
-  }
-
-  .toolbar #contactUs {
-    opacity: 0.8;
-  }
+.contact img {
+  margin-top: 1em;
+  width: 20px;
+}
