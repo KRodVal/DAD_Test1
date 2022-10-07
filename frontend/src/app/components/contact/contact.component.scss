@@ -1,0 +1,65 @@
+$color-empresa: #5065A8;
+
+#backArrow {
+    position: absolute;
+    width: 15%;
+    top: 5%;
+}
+
+#mainLogo {
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3em;
+    display: block;
+    width: 50%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    border-color: $color-empresa;
+    width: 20em;
+    height: 3em;
+
+    margin-bottom: 2em;
+    text-align: center;
+    font-family: sans-serif;
+    color: $color-empresa;
+}
+
+#name {
+    border-radius: 1em 1em 0 0;
+}
+
+#password {
+    border-radius: 0 0 1em 1em;
+}
+
+.form div {
+    margin-top: 3em;
+}
+
+button {
+    width: 9em;
+    height: 2.5em;
+    margin-right: 1em;
+    margin-left: 1em;
+    border-color: white;
+    border-radius: 3em;
+    background-color: white;
+    color: $color-empresa;
+
+}
+
+#login {
+    border-radius: 1em 0 0 1em;
+}
+
+#register {
+    border-radius: 0 1em 1em 0;
+}
