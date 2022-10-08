@@ -1,0 +1,12 @@
+$color-empresa: #5065A8;
+
+.card {
+    display: flexbox;
+    margin-bottom: 2em;
+    border-color: $color-empresa;
+    border-radius: 1em;
+}
+
+#icon {
+    width: 20%;
+}
