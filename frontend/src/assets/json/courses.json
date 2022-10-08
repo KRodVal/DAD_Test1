@@ -18,13 +18,13 @@
         "name": "Mechanics",
         "description": "Basic mechanics",
         "image": "mechIcon",
-        "stock": true
+        "onIt": true
     },
     {
         "id": 4,
         "name": "Music",
         "description": "Sonoran lessons",
         "image": "musicIcon",
-        "stock": true
+        "onIt": true
     }
 ]

@@ -1,5 +1,13 @@
 import { Component, OnInit } from '@angular/core';
-import CoursesJson from '../../../assets/json/courses.json';
+import courseData from '../../../assets/json/courses.json';
+
+interface Course {
+  id: Number;
+  name: String;
+  description: String;
+  image: String;
+  onIt: Boolean;
+}
 
 @Component({
   selector: 'app-course',
@@ -8,9 +16,12 @@ import CoursesJson from '../../../assets/json/courses.json';
 })
 export class CourseComponent implements OnInit {
 
+  courses : Course[] = courseData;
+
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit() {
+    
   }
 
 }

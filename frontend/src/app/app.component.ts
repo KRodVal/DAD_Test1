@@ -11,7 +11,7 @@ import { filter, Subscription } from 'rxjs';
 export class AppComponent implements OnInit{
   public subscriber: Subscription | undefined;
   title = 'frontend';
-  
+
   constructor(private router: Router, @Inject(DOCUMENT) private document: any){ }
 
   ngOnInit(): void {
