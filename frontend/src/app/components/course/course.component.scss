@@ -1,12 +1,27 @@
 $color-empresa: #5065A8;
 
 .card {
-    display: flexbox;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
     margin-bottom: 2em;
+    border: solid;
     border-color: $color-empresa;
     border-radius: 1em;
+    margin-right: 2em;
 }
 
 #icon {
     width: 20%;
+    margin-left: 1em;
+}
+
+h2 {
+    color: $color-empresa;
+    margin-left: 1em;
+}
+
+h3 {
+    color: $color-empresa;
+    margin-left: 2em;
 }

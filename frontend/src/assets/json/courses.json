@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Art",
-        "description": "Cntemporaneous art",
+        "description": "Contemporaneous art",
         "image": "artIcon.png",
         "onIt": false
     },
@@ -25,6 +25,20 @@
         "name": "Music",
         "description": "Sonoran lessons",
         "image": "musicIcon.png",
+        "onIt": true
+    },
+    {
+        "id": 5,
+        "name": "Photography",
+        "description": "Cameras for dummies",
+        "image": "photoIcon.png",
+        "onIt": false
+    },
+    {
+        "id": 6,
+        "name": "Philosophy",
+        "description": "Deep thinkings",
+        "image": "philoIcon.png",
         "onIt": true
     }
 ]
