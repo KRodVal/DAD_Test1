@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "Art",
+        "description": "Cntemporaneous art",
+        "image": "artIcon.png",
+        "onIt": false
+    },
+    {
+        "id": 2,
+        "name": "Math",
+        "description": "Advanced mathematics",
+        "image": "mathIcon.png",
+        "onIt": false
+    },
+    {
+        "id": 3,
+        "name": "Mechanics",
+        "description": "Basic mechanics",
+        "image": "mechIcon",
+        "stock": true
+    },
+    {
+        "id": 4,
+        "name": "Music",
+        "description": "Sonoran lessons",
+        "image": "musicIcon",
+        "stock": true
+    }
+]

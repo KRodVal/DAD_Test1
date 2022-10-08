@@ -8,6 +8,8 @@ import { MenuComponent } from './components/menu/menu.component';
 import { VersionComponent } from './components/version/version.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { SentComponent } from './components/sent/sent.component';
+import { CourseComponent } from './components/course/course.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -16,11 +18,13 @@ import { SentComponent } from './components/sent/sent.component';
     MenuComponent,
     VersionComponent,
     ContactComponent,
-    SentComponent
+    SentComponent,
+    CourseComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
