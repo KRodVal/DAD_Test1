@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -9,7 +10,8 @@ import { VersionComponent } from './components/version/version.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { SentComponent } from './components/sent/sent.component';
 import { CourseComponent } from './components/course/course.component';
-import { HttpClientModule } from '@angular/common/http';
+import { HomeComponent } from './components/home/home.component';
+import { SearchComponent } from './components/search/search.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { HttpClientModule } from '@angular/common/http';
     VersionComponent,
     ContactComponent,
     SentComponent,
-    CourseComponent
+    CourseComponent,
+    HomeComponent,
+    SearchComponent,
   ],
   imports: [
     BrowserModule,

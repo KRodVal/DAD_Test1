@@ -27,12 +27,28 @@ $color-empresa: #5065A8;
     border-radius: 1em;
 }
 
+.searchBar {
+    display: flex;
+    justify-content: center;
+}
+
+.searchBar input {
+    width: 30em;
+    height: 2em;
+    border-color: $color-empresa;
+    border-radius: 1em;
+    text-align: center;
+    color: $color-empresa;
+}
+
 .submenu {
     text-align: center;
     padding-right: 20px;
     border-bottom: solid;
     border-color: $color-empresa;
+    margin-top: 3em;
     margin-bottom: 4em;
+    margin-left: 40px;
     margin-right: 2em;
 
     
@@ -40,4 +56,8 @@ $color-empresa: #5065A8;
 
 h2 {
     color: $color-empresa;
+}
+
+#cards {
+    padding-left: 40px;
 }

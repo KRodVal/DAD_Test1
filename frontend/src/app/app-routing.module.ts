@@ -5,6 +5,8 @@ import { LogInComponent } from './components/log-in/log-in.component';
 import { MenuComponent } from './components/menu/menu.component';
 import { SentComponent } from './components/sent/sent.component';
 import { VersionComponent } from './components/version/version.component';
+import { HomeComponent } from './components/home/home.component';
+import { SearchComponent } from './components/search/search.component';
 
 
 const routes: Routes = [
@@ -14,6 +16,8 @@ const routes: Routes = [
   { path: 'version', component: VersionComponent},
   { path: 'contact', component: ContactComponent},
   { path: 'sent', component: SentComponent},
+  { path: 'home', component: HomeComponent},
+  { path: 'search', component: SearchComponent}
 ];
 
 @NgModule({

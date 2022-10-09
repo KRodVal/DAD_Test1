@@ -33,6 +33,7 @@ $color-empresa: #5065A8;
     border-bottom: solid;
     border-color: $color-empresa;
     margin-bottom: 4em;
+    margin-left: 40px;
     margin-right: 2em;
 
     
@@ -40,4 +41,8 @@ $color-empresa: #5065A8;
 
 h2 {
     color: $color-empresa;
+}
+
+#cards {
+    padding-left: 40px;
 }
