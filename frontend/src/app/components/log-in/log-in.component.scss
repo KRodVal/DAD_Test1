@@ -15,7 +15,7 @@ $color-empresa: #5065A8;
   align-items: center;
 }
 
-input {
+.form input {
   border-color: $color-empresa;
   width: 20em;
   height: 3em;
@@ -24,6 +24,17 @@ input {
   text-align: center;
   font-family: sans-serif;
   color: $color-empresa;
+}
+
+.form div input {
+  width: 9em;
+  height: 2.5em;
+  margin-right: 1em;
+  margin-left: 1em;
+  border-color: $color-empresa;
+  border-radius: 3em;
+  background-color: $color-empresa;
+  color: #ffffff;
 }
 
 #name {
@@ -38,6 +49,8 @@ input {
   margin-top: 3em;
 }
 
+
+
 button {
   width: 9em;
   height: 2.5em;
@@ -47,7 +60,6 @@ button {
   border-radius: 3em;
   background-color: $color-empresa;
   color: #ffffff;
-
 }
 
 #login {

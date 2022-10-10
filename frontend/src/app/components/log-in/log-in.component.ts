@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { NgModel } from '@angular/forms';
-import { RouterModule } from '@angular/router';
+import { Router, RouterModule } from '@angular/router';
 
 @Component({
   selector: 'login',
@@ -12,6 +12,7 @@ export class LogInComponent implements OnInit {
   username: string = '';
 
   constructor() {
+
     imports: [
       NgModel,
       RouterModule,
@@ -20,5 +21,4 @@ export class LogInComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
 }
