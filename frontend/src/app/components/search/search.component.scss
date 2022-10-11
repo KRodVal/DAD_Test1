@@ -1,0 +1,63 @@
+$color-empresa: #5065A8;
+
+.toolbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: $color-empresa;
+    color: white;
+    font-weight: 600;
+    border-radius: 0 0 1em 1em;
+}
+
+.toolbar img {
+    align-self:auto;
+    width: 10%;
+}
+
+#selected {
+    border: solid;
+    border-width: 2px;
+    border-color: white;
+    border-radius: 1em;
+}
+
+.searchBar {
+    display: flex;
+    justify-content: center;
+}
+
+.searchBar input {
+    width: 30em;
+    height: 2em;
+    border-color: $color-empresa;
+    border-radius: 1em;
+    text-align: center;
+    color: $color-empresa;
+}
+
+.submenu {
+    text-align: center;
+    padding-right: 20px;
+    border-bottom: solid;
+    border-color: $color-empresa;
+    margin-top: 3em;
+    margin-bottom: 4em;
+    margin-left: 40px;
+    margin-right: 2em;
+
+    
+}
+
+h2 {
+    color: $color-empresa;
+}
+
+#cards {
+    padding-left: 40px;
+}

@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Art",
+        "description": "Contemporaneous art",
+        "image": "artIcon.png",
+        "onIt": false
+    },
+    {
+        "id": 2,
+        "name": "Math",
+        "description": "Advanced mathematics",
+        "image": "mathIcon.png",
+        "onIt": false
+    },
+    {
+        "id": 3,
+        "name": "Mechanics",
+        "description": "Basic mechanics",
+        "image": "mechIcon.png",
+        "onIt": true
+    },
+    {
+        "id": 4,
+        "name": "Music",
+        "description": "Sonoran lessons",
+        "image": "musicIcon.png",
+        "onIt": true
+    },
+    {
+        "id": 5,
+        "name": "Photography",
+        "description": "Cameras for dummies",
+        "image": "photoIcon.png",
+        "onIt": false
+    },
+    {
+        "id": 6,
+        "name": "Philosophy",
+        "description": "Deep thinkings",
+        "image": "philoIcon.png",
+        "onIt": true
+    }
+]
