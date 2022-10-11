@@ -9,7 +9,7 @@ import { Router, RouterModule } from '@angular/router';
 })
 export class LogInComponent implements OnInit {
 
-  username: string = '';
+  usr: string = '';
 
   constructor() {
 
@@ -20,5 +20,9 @@ export class LogInComponent implements OnInit {
    }
 
   ngOnInit(): void {
+  }
+
+  submitxd() {
+      window.location.href = "/menu";
   }
 }
